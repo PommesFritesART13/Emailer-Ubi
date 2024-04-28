@@ -65,15 +65,15 @@
         margin-right: 5%;
       }
       .header img {
-        content: url('Images/Header_small.png');
+        content: url('Header_small.png');
       }
       .footer img {
-        content: url('Images/Footer_small.png');
+        content: url('Footer_small.png');
       }
     }
     @media only screen and (min-width: 601px) and (max-width: 1260px) {
       .header img {
-        content: url('Images/Header_medium.png');
+        content: url('Header_medium.png');
       }
     }
   </style>
@@ -81,7 +81,7 @@
 <body>
   <!-- En-tête -->
   <div class="header">
-    <img src="Images/Header.png" alt="Header">
+    <img src="Header.png" alt="Header">
   </div>
   <!-- Contenu -->
   <div class="content">
@@ -99,20 +99,20 @@
   </div>
   <!-- Pied de page -->
   <div class="footer">
-    <img src="Images/Footer.png" alt="Footer">
+    <img src="Footer.png" alt="Footer">
   </div>
 
   <!-- Police personnalisée -->
   <style>
     @font-face {
       font-family: 'UbisoftSans-Regular';
-      src: url('Fonts/UbisoftSans-Regular.woff') format('woff');
+      src: url('UbisoftSans-Regular.woff') format('woff');
       font-weight: normal;
       font-style: normal;
     }
     @font-face {
       font-family: 'UbisoftSans-Bold';
-      src: url('Fonts/UbisoftSans-Bold.woff') format('woff');
+      src: url('UbisoftSans-Bold.woff') format('woff');
       font-weight: bold;
       font-style: normal;
     }
